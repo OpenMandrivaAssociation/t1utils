@@ -6,6 +6,7 @@ Source: http://www.lcdf.org/type/%{name}-%{version}.tar.bz2
 URL: http://www.lcdf.org/type/
 Group: Publishing
 License: freely modifiable and distributable
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description 
 The t1utils package is a set of programs for manipulating PostScript
