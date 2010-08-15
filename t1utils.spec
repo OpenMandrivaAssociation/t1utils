@@ -1,9 +1,8 @@
 Summary: Programs for manipulating PostScript Type 1 fonts
 Name: t1utils
-Version: 1.35
+Version: 1.36
 Release: %mkrel 1
 Source: http://www.lcdf.org/type/%{name}-%{version}.tar.gz
-#Patch0: t1utils-1.33-fix-getline.patch
 URL: http://www.lcdf.org/type/
 Group: Publishing
 License: freely modifiable and distributable
@@ -17,7 +16,6 @@ editable ASCII format, and Macintosh resource forks.
 
 %prep
 %setup -q
-#%patch0 -p0
 
 %build
 %configure2_5x
