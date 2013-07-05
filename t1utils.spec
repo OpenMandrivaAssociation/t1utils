@@ -1,7 +1,7 @@
 Summary: Programs for manipulating PostScript Type 1 fonts
 Name: t1utils
-Version: 1.36
-Release: %mkrel 2
+Version: 1.37
+Release: 1
 Source: http://www.lcdf.org/type/%{name}-%{version}.tar.gz
 URL: http://www.lcdf.org/type/
 Group: Publishing
@@ -85,15 +85,16 @@ rm -rf %{buildroot}
 + Revision: 114515
 - Import t1utils
 
-* Sun Jan 28 2007 Götz Waschk <waschk@mandriva.org> 1.32-3mdv2007.1
+* Sun Jan 28 2007 GÃ¶tz Waschk <waschk@mandriva.org> 1.32-3mdv2007.1
 - rebuild
 
 * Sun Jan 01 2006 Mandriva Linux Team <http://www.mandrivaexpert.com/> 1.32-3mdk
 - Rebuild
 
-* Sat Aug 06 2005 Giuseppe Ghibò <ghibo@mandriva.com> 1.32-2mdk
+* Sat Aug 06 2005 Giuseppe GhibÃ² <ghibo@mandriva.com> 1.32-2mdk
 - Rebuilt.
 
-* Tue Jul 20 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 1.32-1mdk
+* Tue Jul 20 2004 Giuseppe GhibÃ² <ghibo@mandrakesoft.com> 1.32-1mdk
 - Release: 1.34.
+
 
