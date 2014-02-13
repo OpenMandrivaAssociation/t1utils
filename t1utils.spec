@@ -1,12 +1,11 @@
 Summary: Programs for manipulating PostScript Type 1 fonts
 Name: t1utils
-Version: 1.37
-Release: 5
+Version: 1.38
+Release: 1
 Source: http://www.lcdf.org/type/%{name}-%{version}.tar.gz
 URL: http://www.lcdf.org/type/
 Group: Publishing
 License: freely modifiable and distributable
-BuildRoot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 The t1utils package is a set of programs for manipulating PostScript
@@ -22,14 +21,11 @@ editable ASCII format, and Macintosh resource forks.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
 %clean
-rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %doc NEWS README
 %attr(0755,root,root) %{_bindir}/*
 %attr(0644,root,root) %{_mandir}/man1/*
@@ -96,5 +92,6 @@ rm -rf %{buildroot}
 
 * Tue Jul 20 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 1.32-1mdk
 - Release: 1.34.
+
 
 
