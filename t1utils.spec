@@ -3,7 +3,7 @@ Name: t1utils
 Version:	1.42
 Release:	2
 Source0: http://www.lcdf.org/type/%{name}-%{version}.tar.gz
-URL: http://www.lcdf.org/type/
+URL: https://www.lcdf.org/type/
 Group: Publishing
 License: freely modifiable and distributable
 
