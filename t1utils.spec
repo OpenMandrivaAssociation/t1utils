@@ -7,6 +7,11 @@ URL: https://www.lcdf.org/type/
 Group: Publishing
 License: freely modifiable and distributable
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 The t1utils package is a set of programs for manipulating PostScript
 Type 1 fonts. It contains programs to change between binary PFB format
